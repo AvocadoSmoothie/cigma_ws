@@ -13,13 +13,19 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>tp-rest</name>
 	<description>TP Rest</description>
+	<packaging>war</packaging>
 	<properties>
 		<java.version>1.8</java.version>
+		<main>ma.cigma.ws.tprest.TpRestApplication</main>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
 		</dependency>
 
 		<dependency>
